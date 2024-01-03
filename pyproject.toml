@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "svdparse"
+version = "0.3.2"
+description = "System view description (SVD) file parsing library"
+authors = ["Jon Palmisciano <jp@jonpalmisc.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
